@@ -5,5 +5,6 @@ func main() {
 	demoVariables()
 	demoValues()
 	Hello_word()
+	constants()
 
 }
