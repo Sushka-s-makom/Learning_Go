@@ -15,6 +15,6 @@ func constants() {
 	const d = 3e20 / n
 	fmt.Println(d)
 
-	fmt.Println(math.Sin(float64(n))
+	fmt.Println(math.Sin(float64(n)))
 
 }
