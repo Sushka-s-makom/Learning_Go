@@ -2,8 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
-
+func demoVariables() {
 	var a string = "intial"
 	fmt.Println(a)
 
@@ -13,9 +12,7 @@ func main() {
 	var p int
 	fmt.Println(p)
 
-	//сокращения для объявления инициализированной переменной
-
+	// сокращения для объявления инициализированной переменной
 	f := "short"
 	fmt.Println(f)
-
 }
