@@ -1,0 +1,15 @@
+# Go build artifacts
+bin/
+*.exe
+*.out
+*.test
+
+# Coverage
+coverage.out
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
