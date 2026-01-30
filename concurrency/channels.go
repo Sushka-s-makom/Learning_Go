@@ -4,7 +4,7 @@ import "fmt"
 
 func Chan() {
 	messages := make(chan string)
-	go func() { messsages <- "ping" }()
+	go func() { messages <- "ping" }()
 
 	msg := <-messages
 
