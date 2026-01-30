@@ -31,8 +31,8 @@ func TestIntMinTableDriven(t *testing.T) {
 		{2, 3, 1},
 	}
 	for _, tt := range tests {
-		testname := fmt.Sprintf("%d,%d", tt.a, tt.b)
-		t.Run(testname, func(t *testing.T) {
+		testament := fmt.Sprintf("%d,%d", tt.a, tt.b)
+		t.Run(testament, func(t *testing.T) {
 			ans := IntMin(tt.a, tt.b)
 			if ans != tt.want {
 				t.Errorf("Expected %d, got %d", tt.want, ans)
